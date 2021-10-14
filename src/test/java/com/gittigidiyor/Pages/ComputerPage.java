@@ -22,9 +22,6 @@ public class ComputerPage extends BasePage{
     @FindBy(xpath = "//a[.='Sepete Git']")
     public WebElement goToBasket;
 
-    @FindBy(xpath = "//div[@class='header-cart-container robot-header-cart-container focused']")
-    public WebElement goToBasket2;
-
     @FindBy(xpath = "//select[@class='amount']")
     public WebElement amount;
 

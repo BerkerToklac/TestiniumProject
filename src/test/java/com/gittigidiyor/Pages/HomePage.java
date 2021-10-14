@@ -16,4 +16,7 @@ public class HomePage extends BasePage{
 
     @FindBy(xpath = "//span[.='BUL']")
     public WebElement searchButton;
+
+    @FindBy(xpath = "//span[.='Kapat']")
+    public WebElement cookies;
 }

@@ -27,6 +27,8 @@ public class TestClass {
 
        HomePage homePage = new HomePage();
 
+       homePage.cookies.click();
+
        homePage.searchBox.sendKeys("Bilgisayar");
        homePage.searchButton.click();
 
